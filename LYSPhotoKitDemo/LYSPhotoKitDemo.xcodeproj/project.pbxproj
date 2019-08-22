@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC07BAC230E1FF100EFD6FA /* LYSPhotoFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BAB230E1FF100EFD6FA /* LYSPhotoFolderCell.m */; };
+		CCC07BAF230E204B00EFD6FA /* LYSPhotoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BAE230E204B00EFD6FA /* LYSPhotoImageCell.m */; };
+		CCC07BB2230E2A6100EFD6FA /* LYSPhotoCollectController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BB1230E2A6100EFD6FA /* LYSPhotoCollectController.m */; };
+		CCC07BF0230E3A3100EFD6FA /* LYSPhotoResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BEF230E3A3100EFD6FA /* LYSPhotoResource.bundle */; };
+		CCC07BF3230E3B9100EFD6FA /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BF1230E3B9100EFD6FA /* fanhui.png */; };
+		CCC07BF4230E3B9100EFD6FA /* fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BF2230E3B9100EFD6FA /* fanhui@2x.png */; };
+		CCC07BF7230E694B00EFD6FA /* LYSPhotoImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BF6230E694B00EFD6FA /* LYSPhotoImageModel.m */; };
+		CCC07BFA230E6CEF00EFD6FA /* LYSPhotoFolderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BF9230E6CEF00EFD6FA /* LYSPhotoFolderModel.m */; };
+		CCC07BFD230E84DB00EFD6FA /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFB230E84DB00EFD6FA /* right.png */; };
+		CCC07BFE230E84DB00EFD6FA /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFC230E84DB00EFD6FA /* right@2x.png */; };
+		CCC07C01230E8CA700EFD6FA /* dui_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFF230E8CA700EFD6FA /* dui_press@3x.png */; };
+		CCC07C02230E8CA700EFD6FA /* dui_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07C00230E8CA700EFD6FA /* dui_press@2x.png */; };
+		CCD555EC230D1C9500F39D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD555EB230D1C9500F39D97 /* AppDelegate.m */; };
+		CCD555EF230D1C9500F39D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD555EE230D1C9500F39D97 /* ViewController.m */; };
+		CCD555F2230D1C9500F39D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD555F0230D1C9500F39D97 /* Main.storyboard */; };
+		CCD555F4230D1C9700F39D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD555F3230D1C9700F39D97 /* Assets.xcassets */; };
+		CCD555F7230D1C9700F39D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD555F5230D1C9700F39D97 /* LaunchScreen.storyboard */; };
+		CCD555FA230D1C9700F39D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD555F9230D1C9700F39D97 /* main.m */; };
+		CCD55604230D1C9700F39D97 /* LYSPhotoKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD55603230D1C9700F39D97 /* LYSPhotoKitDemoTests.m */; };
+		CCD5560F230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5560E230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD55600230D1C9700F39D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD555DF230D1C9500F39D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD555E6230D1C9500F39D97;
+			remoteInfo = LYSPhotoKitDemo;
+		};
+		CCD5560B230D1C9700F39D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD555DF230D1C9500F39D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD555E6230D1C9500F39D97;
+			remoteInfo = LYSPhotoKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC07BAA230E1FF100EFD6FA /* LYSPhotoFolderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderCell.h; sourceTree = "<group>"; };
+		CCC07BAB230E1FF100EFD6FA /* LYSPhotoFolderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderCell.m; sourceTree = "<group>"; };
+		CCC07BAD230E204B00EFD6FA /* LYSPhotoImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageCell.h; sourceTree = "<group>"; };
+		CCC07BAE230E204B00EFD6FA /* LYSPhotoImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageCell.m; sourceTree = "<group>"; };
+		CCC07BB0230E2A6100EFD6FA /* LYSPhotoCollectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoCollectController.h; sourceTree = "<group>"; };
+		CCC07BB1230E2A6100EFD6FA /* LYSPhotoCollectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoCollectController.m; sourceTree = "<group>"; };
+		CCC07BDF230E378500EFD6FA /* LYSPhotoResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSPhotoResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC07BE1230E378500EFD6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC07BEF230E3A3100EFD6FA /* LYSPhotoResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYSPhotoResource.bundle; sourceTree = "<group>"; };
+		CCC07BF1230E3B9100EFD6FA /* fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhui.png; sourceTree = "<group>"; };
+		CCC07BF2230E3B9100EFD6FA /* fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanhui@2x.png"; sourceTree = "<group>"; };
+		CCC07BF5230E694B00EFD6FA /* LYSPhotoImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageModel.h; sourceTree = "<group>"; };
+		CCC07BF6230E694B00EFD6FA /* LYSPhotoImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageModel.m; sourceTree = "<group>"; };
+		CCC07BF8230E6CEF00EFD6FA /* LYSPhotoFolderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderModel.h; sourceTree = "<group>"; };
+		CCC07BF9230E6CEF00EFD6FA /* LYSPhotoFolderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderModel.m; sourceTree = "<group>"; };
+		CCC07BFB230E84DB00EFD6FA /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		CCC07BFC230E84DB00EFD6FA /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		CCC07BFF230E8CA700EFD6FA /* dui_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dui_press@3x.png"; sourceTree = "<group>"; };
+		CCC07C00230E8CA700EFD6FA /* dui_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dui_press@2x.png"; sourceTree = "<group>"; };
+		CCD555E7230D1C9500F39D97 /* LYSPhotoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSPhotoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD555EA230D1C9500F39D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD555EB230D1C9500F39D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD555ED230D1C9500F39D97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD555EE230D1C9500F39D97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD555F1230D1C9500F39D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD555F3230D1C9700F39D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD555F6230D1C9700F39D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD555F8230D1C9700F39D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD555F9230D1C9700F39D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD555FF230D1C9700F39D97 /* LYSPhotoKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSPhotoKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD55603230D1C9700F39D97 /* LYSPhotoKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoKitDemoTests.m; sourceTree = "<group>"; };
+		CCD55605230D1C9700F39D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD5560A230D1C9700F39D97 /* LYSPhotoKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSPhotoKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD5560E230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoKitDemoUITests.m; sourceTree = "<group>"; };
+		CCD55610230D1C9700F39D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC07BDC230E378500EFD6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD555E4230D1C9500F39D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD555FC230D1C9700F39D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD55607230D1C9700F39D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC07BE0230E378500EFD6FA /* LYSPhotoResource */ = {
+			isa = PBXGroup;
+			children = (
+				CCC07C00230E8CA700EFD6FA /* dui_press@2x.png */,
+				CCC07BFF230E8CA700EFD6FA /* dui_press@3x.png */,
+				CCC07BF1230E3B9100EFD6FA /* fanhui.png */,
+				CCC07BF2230E3B9100EFD6FA /* fanhui@2x.png */,
+				CCC07BFB230E84DB00EFD6FA /* right.png */,
+				CCC07BFC230E84DB00EFD6FA /* right@2x.png */,
+				CCC07BE1230E378500EFD6FA /* Info.plist */,
+			);
+			path = LYSPhotoResource;
+			sourceTree = "<group>";
+		};
+		CCD555DE230D1C9500F39D97 = {
+			isa = PBXGroup;
+			children = (
+				CCD555E9230D1C9500F39D97 /* LYSPhotoKitDemo */,
+				CCD55602230D1C9700F39D97 /* LYSPhotoKitDemoTests */,
+				CCD5560D230D1C9700F39D97 /* LYSPhotoKitDemoUITests */,
+				CCC07BE0230E378500EFD6FA /* LYSPhotoResource */,
+				CCD555E8230D1C9500F39D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD555E8230D1C9500F39D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD555E7230D1C9500F39D97 /* LYSPhotoKitDemo.app */,
+				CCD555FF230D1C9700F39D97 /* LYSPhotoKitDemoTests.xctest */,
+				CCD5560A230D1C9700F39D97 /* LYSPhotoKitDemoUITests.xctest */,
+				CCC07BDF230E378500EFD6FA /* LYSPhotoResource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD555E9230D1C9500F39D97 /* LYSPhotoKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCD555EA230D1C9500F39D97 /* AppDelegate.h */,
+				CCD555EB230D1C9500F39D97 /* AppDelegate.m */,
+				CCD555ED230D1C9500F39D97 /* ViewController.h */,
+				CCD555EE230D1C9500F39D97 /* ViewController.m */,
+				CCD5561C230D1CE800F39D97 /* LYSPhotoKit */,
+				CCD555F0230D1C9500F39D97 /* Main.storyboard */,
+				CCD555F3230D1C9700F39D97 /* Assets.xcassets */,
+				CCD555F5230D1C9700F39D97 /* LaunchScreen.storyboard */,
+				CCD555F8230D1C9700F39D97 /* Info.plist */,
+				CCD555F9230D1C9700F39D97 /* main.m */,
+			);
+			path = LYSPhotoKitDemo;
+			sourceTree = "<group>";
+		};
+		CCD55602230D1C9700F39D97 /* LYSPhotoKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD55603230D1C9700F39D97 /* LYSPhotoKitDemoTests.m */,
+				CCD55605230D1C9700F39D97 /* Info.plist */,
+			);
+			path = LYSPhotoKitDemoTests;
+			sourceTree = "<group>";
+		};
+		CCD5560D230D1C9700F39D97 /* LYSPhotoKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5560E230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m */,
+				CCD55610230D1C9700F39D97 /* Info.plist */,
+			);
+			path = LYSPhotoKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		CCD5561C230D1CE800F39D97 /* LYSPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCC07BEF230E3A3100EFD6FA /* LYSPhotoResource.bundle */,
+				CCC07BAA230E1FF100EFD6FA /* LYSPhotoFolderCell.h */,
+				CCC07BAB230E1FF100EFD6FA /* LYSPhotoFolderCell.m */,
+				CCC07BF8230E6CEF00EFD6FA /* LYSPhotoFolderModel.h */,
+				CCC07BF9230E6CEF00EFD6FA /* LYSPhotoFolderModel.m */,
+				CCC07BAD230E204B00EFD6FA /* LYSPhotoImageCell.h */,
+				CCC07BAE230E204B00EFD6FA /* LYSPhotoImageCell.m */,
+				CCC07BF5230E694B00EFD6FA /* LYSPhotoImageModel.h */,
+				CCC07BF6230E694B00EFD6FA /* LYSPhotoImageModel.m */,
+				CCC07BB0230E2A6100EFD6FA /* LYSPhotoCollectController.h */,
+				CCC07BB1230E2A6100EFD6FA /* LYSPhotoCollectController.m */,
+			);
+			name = LYSPhotoKit;
+			path = ../../LYSPhotoKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC07BDE230E378500EFD6FA /* LYSPhotoResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC07BE2230E378500EFD6FA /* Build configuration list for PBXNativeTarget "LYSPhotoResource" */;
+			buildPhases = (
+				CCC07BDB230E378500EFD6FA /* Sources */,
+				CCC07BDC230E378500EFD6FA /* Frameworks */,
+				CCC07BDD230E378500EFD6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSPhotoResource;
+			productName = LYSPhotoResource;
+			productReference = CCC07BDF230E378500EFD6FA /* LYSPhotoResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CCD555E6230D1C9500F39D97 /* LYSPhotoKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD55613230D1C9700F39D97 /* Build configuration list for PBXNativeTarget "LYSPhotoKitDemo" */;
+			buildPhases = (
+				CCD555E3230D1C9500F39D97 /* Sources */,
+				CCD555E4230D1C9500F39D97 /* Frameworks */,
+				CCD555E5230D1C9500F39D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSPhotoKitDemo;
+			productName = LYSPhotoKitDemo;
+			productReference = CCD555E7230D1C9500F39D97 /* LYSPhotoKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD555FE230D1C9700F39D97 /* LYSPhotoKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD55616230D1C9700F39D97 /* Build configuration list for PBXNativeTarget "LYSPhotoKitDemoTests" */;
+			buildPhases = (
+				CCD555FB230D1C9700F39D97 /* Sources */,
+				CCD555FC230D1C9700F39D97 /* Frameworks */,
+				CCD555FD230D1C9700F39D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD55601230D1C9700F39D97 /* PBXTargetDependency */,
+			);
+			name = LYSPhotoKitDemoTests;
+			productName = LYSPhotoKitDemoTests;
+			productReference = CCD555FF230D1C9700F39D97 /* LYSPhotoKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD55609230D1C9700F39D97 /* LYSPhotoKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD55619230D1C9700F39D97 /* Build configuration list for PBXNativeTarget "LYSPhotoKitDemoUITests" */;
+			buildPhases = (
+				CCD55606230D1C9700F39D97 /* Sources */,
+				CCD55607230D1C9700F39D97 /* Frameworks */,
+				CCD55608230D1C9700F39D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD5560C230D1C9700F39D97 /* PBXTargetDependency */,
+			);
+			name = LYSPhotoKitDemoUITests;
+			productName = LYSPhotoKitDemoUITests;
+			productReference = CCD5560A230D1C9700F39D97 /* LYSPhotoKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD555DF230D1C9500F39D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HENAN;
+				TargetAttributes = {
+					CCC07BDE230E378500EFD6FA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CCD555E6230D1C9500F39D97 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CCD555FE230D1C9700F39D97 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CCD555E6230D1C9500F39D97;
+					};
+					CCD55609230D1C9700F39D97 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CCD555E6230D1C9500F39D97;
+					};
+				};
+			};
+			buildConfigurationList = CCD555E2230D1C9500F39D97 /* Build configuration list for PBXProject "LYSPhotoKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD555DE230D1C9500F39D97;
+			productRefGroup = CCD555E8230D1C9500F39D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD555E6230D1C9500F39D97 /* LYSPhotoKitDemo */,
+				CCD555FE230D1C9700F39D97 /* LYSPhotoKitDemoTests */,
+				CCD55609230D1C9700F39D97 /* LYSPhotoKitDemoUITests */,
+				CCC07BDE230E378500EFD6FA /* LYSPhotoResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC07BDD230E378500EFD6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC07BFD230E84DB00EFD6FA /* right.png in Resources */,
+				CCC07C02230E8CA700EFD6FA /* dui_press@2x.png in Resources */,
+				CCC07C01230E8CA700EFD6FA /* dui_press@3x.png in Resources */,
+				CCC07BF4230E3B9100EFD6FA /* fanhui@2x.png in Resources */,
+				CCC07BF3230E3B9100EFD6FA /* fanhui.png in Resources */,
+				CCC07BFE230E84DB00EFD6FA /* right@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD555E5230D1C9500F39D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD555F7230D1C9700F39D97 /* LaunchScreen.storyboard in Resources */,
+				CCC07BF0230E3A3100EFD6FA /* LYSPhotoResource.bundle in Resources */,
+				CCD555F4230D1C9700F39D97 /* Assets.xcassets in Resources */,
+				CCD555F2230D1C9500F39D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD555FD230D1C9700F39D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD55608230D1C9700F39D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC07BDB230E378500EFD6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD555E3230D1C9500F39D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC07BB2230E2A6100EFD6FA /* LYSPhotoCollectController.m in Sources */,
+				CCD555EF230D1C9500F39D97 /* ViewController.m in Sources */,
+				CCD555FA230D1C9700F39D97 /* main.m in Sources */,
+				CCD555EC230D1C9500F39D97 /* AppDelegate.m in Sources */,
+				CCC07BFA230E6CEF00EFD6FA /* LYSPhotoFolderModel.m in Sources */,
+				CCC07BAF230E204B00EFD6FA /* LYSPhotoImageCell.m in Sources */,
+				CCC07BF7230E694B00EFD6FA /* LYSPhotoImageModel.m in Sources */,
+				CCC07BAC230E1FF100EFD6FA /* LYSPhotoFolderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD555FB230D1C9700F39D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD55604230D1C9700F39D97 /* LYSPhotoKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD55606230D1C9700F39D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD5560F230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD55601230D1C9700F39D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD555E6230D1C9500F39D97 /* LYSPhotoKitDemo */;
+			targetProxy = CCD55600230D1C9700F39D97 /* PBXContainerItemProxy */;
+		};
+		CCD5560C230D1C9700F39D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD555E6230D1C9500F39D97 /* LYSPhotoKitDemo */;
+			targetProxy = CCD5560B230D1C9700F39D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD555F0230D1C9500F39D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD555F1230D1C9500F39D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD555F5230D1C9700F39D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD555F6230D1C9700F39D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC07BE3230E378500EFD6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = LYSPhotoResource/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSPhotoResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CCC07BE4230E378500EFD6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				COPY_PHASE_STRIP = YES;
+				INFOPLIST_FILE = LYSPhotoResource/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSPhotoResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CCD55611230D1C9700F39D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD55612230D1C9700F39D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD55614230D1C9700F39D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HKHKXULF6R;
+				INFOPLIST_FILE = LYSPhotoKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZJCS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ZJCS;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD55615230D1C9700F39D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HKHKXULF6R;
+				INFOPLIST_FILE = LYSPhotoKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZJCS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ZJCS;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCD55617230D1C9700F39D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSPhotoKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSPhotoKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYSPhotoKitDemo.app/LYSPhotoKitDemo";
+			};
+			name = Debug;
+		};
+		CCD55618230D1C9700F39D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSPhotoKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSPhotoKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYSPhotoKitDemo.app/LYSPhotoKitDemo";
+			};
+			name = Release;
+		};
+		CCD5561A230D1C9700F39D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSPhotoKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSPhotoKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYSPhotoKitDemo;
+			};
+			name = Debug;
+		};
+		CCD5561B230D1C9700F39D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSPhotoKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSPhotoKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYSPhotoKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC07BE2230E378500EFD6FA /* Build configuration list for PBXNativeTarget "LYSPhotoResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC07BE3230E378500EFD6FA /* Debug */,
+				CCC07BE4230E378500EFD6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD555E2230D1C9500F39D97 /* Build configuration list for PBXProject "LYSPhotoKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD55611230D1C9700F39D97 /* Debug */,
+				CCD55612230D1C9700F39D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD55613230D1C9700F39D97 /* Build configuration list for PBXNativeTarget "LYSPhotoKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD55614230D1C9700F39D97 /* Debug */,
+				CCD55615230D1C9700F39D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD55616230D1C9700F39D97 /* Build configuration list for PBXNativeTarget "LYSPhotoKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD55617230D1C9700F39D97 /* Debug */,
+				CCD55618230D1C9700F39D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD55619230D1C9700F39D97 /* Build configuration list for PBXNativeTarget "LYSPhotoKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD5561A230D1C9700F39D97 /* Debug */,
+				CCD5561B230D1C9700F39D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD555DF230D1C9500F39D97 /* Project object */;
+}
