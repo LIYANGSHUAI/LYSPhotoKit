@@ -35,13 +35,7 @@
         _selectBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
         UIImage *defaultImage = [UIImage imageNamed:@""];
         [_selectBtn setImage:defaultImage forState:(UIControlStateNormal)];
-        UIImage *selectImage = [UIImage imageNamed:@"LYSPhotoResource.bundle/dui_press.png"];
-        
-        NSLog(@"%@",selectImage);
-        
-        NSBundle *bundle = [NSBundle bundleForClass:<#ClassFromPodspec#>];
-        [UIImage imageWithContentsOfFile:[bundle pathForResource:@"PodTest.bundle/imageName@2x" ofType:@"png"]];
-        
+        UIImage *selectImage = [UIImage imageNamed:@"dui_press.png"];
         [_selectBtn setImage:selectImage forState:(UIControlStateSelected)];
         _selectBtn.tintColor = [UIColor clearColor];
         _selectBtn.frame = CGRectMake(self.frame.size.width-20, self.frame.size.height-20, 20, 20);

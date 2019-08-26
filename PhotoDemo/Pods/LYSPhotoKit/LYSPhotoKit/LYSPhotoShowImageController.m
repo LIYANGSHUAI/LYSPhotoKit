@@ -28,7 +28,7 @@
     
     UIButton *returnBtn = [UIButton buttonWithType:(UIButtonTypeSystem)];
     returnBtn.frame = CGRectMake(0, 0, 40, 40);
-    UIImage *image = [UIImage imageNamed:@"Resources/LYSPhotoResource.bundle/fanhui.png"];
+    UIImage *image = [UIImage imageNamed:@"fanhui.png"];
     [returnBtn setImage:image forState:(UIControlStateNormal)];
     [returnBtn setImageEdgeInsets:UIEdgeInsetsMake(0, -20, 0, 0)];
     [returnBtn addTarget:self action:@selector(returnBtnAction) forControlEvents:(UIControlEventTouchUpInside)];

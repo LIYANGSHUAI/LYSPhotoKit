@@ -12,7 +12,7 @@
 #import "LYSPhotoImageCell.h"
 #import "LYSPhotoFolderModel.h"
 #import "LYSPhotoManager.h"
-
+#import "LYSPhotoResource.h"
 @interface LYSPhotoImageController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -26,12 +26,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIButton *returnBtn = [UIButton buttonWithType:(UIButtonTypeSystem)];
-    returnBtn.frame = CGRectMake(0, 0, 40, 40);
-    UIImage*image = [UIImage imageNamed:@"LYSPhotoResource.bundle/fanhui.png"];
-    [returnBtn setImage:image forState:(UIControlStateNormal)];
-    [returnBtn setImageEdgeInsets:UIEdgeInsetsMake(0, -20, 0, 0)];
-    [returnBtn addTarget:self action:@selector(returnBtnAction) forControlEvents:(UIControlEventTouchUpInside)];
+    UIView *returnBtn = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+    UIImageView *returnImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10, 20, 20)];
+    [returnBtn addSubview:returnImg];
+    NSData *decodeData = [[NSData alloc]initWithBase64EncodedString:LYSPHOTOFANHUI options:(NSDataBase64DecodingIgnoreUnknownCharacters)];
+    UIImage *image = [UIImage imageWithData:decodeData];
+    returnImg.image = image;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(returnBtnAction)];
+    [returnBtn addGestureRecognizer:tap];
     UIBarButtonItem *returnBarItem = [[UIBarButtonItem alloc] initWithCustomView:returnBtn];
     self.navigationItem.leftBarButtonItem = returnBarItem;
     

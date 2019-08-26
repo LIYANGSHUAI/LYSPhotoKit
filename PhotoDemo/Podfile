@@ -16,6 +16,5 @@ target 'PhotoDemo' do
     inherit! :search_paths
     # Pods for testing
   end
-pod 'LYSPhotoKit', '~> 0.0.2'
-
+pod 'LYSPhotoKit', '~> 0.0.3'
 end

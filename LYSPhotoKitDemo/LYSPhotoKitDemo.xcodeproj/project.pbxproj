@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CCBE9F5E231371F200047743 /* LYSPhotoKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9F5D231371F200047743 /* LYSPhotoKit.podspec */; };
-		CCBE9FA623137D5000047743 /* dui_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9F9F23137D5000047743 /* dui_press@2x.png */; };
-		CCBE9FA723137D5000047743 /* dui_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FA023137D5000047743 /* dui_press@3x.png */; };
-		CCBE9FA823137D5000047743 /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FA123137D5000047743 /* fanhui.png */; };
-		CCBE9FAA23137D5000047743 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FA323137D5000047743 /* right@2x.png */; };
-		CCBE9FAB23137D5000047743 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FA423137D5000047743 /* right.png */; };
-		CCBE9FAC23137D5000047743 /* fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FA523137D5000047743 /* fanhui@2x.png */; };
 		CCC07BF3230E3B9100EFD6FA /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BF1230E3B9100EFD6FA /* fanhui.png */; };
 		CCC07BF4230E3B9100EFD6FA /* fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BF2230E3B9100EFD6FA /* fanhui@2x.png */; };
 		CCC07BFD230E84DB00EFD6FA /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFB230E84DB00EFD6FA /* right.png */; };
@@ -60,12 +54,7 @@
 /* Begin PBXFileReference section */
 		CCBE9F5D231371F200047743 /* LYSPhotoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSPhotoKit.podspec; path = ../../LYSPhotoKit.podspec; sourceTree = "<group>"; };
 		CCBE9F5F2313720700047743 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = /Users/henandongxin/GithubStore/LYSPhotoKit/LYSPhotoKitDemo/LYSPhotoKitDemo/README.md; sourceTree = "<absolute>"; };
-		CCBE9F9F23137D5000047743 /* dui_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dui_press@2x.png"; sourceTree = "<group>"; };
-		CCBE9FA023137D5000047743 /* dui_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dui_press@3x.png"; sourceTree = "<group>"; };
-		CCBE9FA123137D5000047743 /* fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhui.png; sourceTree = "<group>"; };
-		CCBE9FA323137D5000047743 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
-		CCBE9FA423137D5000047743 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
-		CCBE9FA523137D5000047743 /* fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanhui@2x.png"; sourceTree = "<group>"; };
+		CCBE9FEB231396E700047743 /* LYSPhotoResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoResource.h; sourceTree = "<group>"; };
 		CCC07BDF230E378500EFD6FA /* LYSPhotoResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSPhotoResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC07BE1230E378500EFD6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC07BF1230E3B9100EFD6FA /* fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhui.png; sourceTree = "<group>"; };
@@ -145,19 +134,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CCBE9F9E23137D2300047743 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CCBE9F9F23137D5000047743 /* dui_press@2x.png */,
-				CCBE9FA023137D5000047743 /* dui_press@3x.png */,
-				CCBE9FA123137D5000047743 /* fanhui.png */,
-				CCBE9FA523137D5000047743 /* fanhui@2x.png */,
-				CCBE9FA423137D5000047743 /* right.png */,
-				CCBE9FA323137D5000047743 /* right@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		CCC07BE0230E378500EFD6FA /* LYSPhotoResource */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,7 +210,6 @@
 		CCD5561C230D1CE800F39D97 /* LYSPhotoKit */ = {
 			isa = PBXGroup;
 			children = (
-				CCBE9F9E23137D2300047743 /* Resources */,
 				CCDC8227230F9159004A415E /* LYSPhotoManager.h */,
 				CCDC8228230F9159004A415E /* LYSPhotoManager.m */,
 				CCDC8218230F8D00004A415E /* LYSPhotoFileModel.h */,
@@ -256,6 +231,7 @@
 				CCDC822D230FD1A6004A415E /* LYSPhotoControllerDelegate.h */,
 				CCDC820E230F7F9C004A415E /* LYSPhotoController.h */,
 				CCDC820F230F7F9C004A415E /* LYSPhotoController.m */,
+				CCBE9FEB231396E700047743 /* LYSPhotoResource.h */,
 			);
 			name = LYSPhotoKit;
 			path = ../../LYSPhotoKit;
@@ -398,15 +374,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCBE9FAB23137D5000047743 /* right.png in Resources */,
 				CCD555F7230D1C9700F39D97 /* LaunchScreen.storyboard in Resources */,
-				CCBE9FAA23137D5000047743 /* right@2x.png in Resources */,
-				CCBE9FAC23137D5000047743 /* fanhui@2x.png in Resources */,
-				CCBE9FA823137D5000047743 /* fanhui.png in Resources */,
-				CCBE9FA623137D5000047743 /* dui_press@2x.png in Resources */,
 				CCBE9F5E231371F200047743 /* LYSPhotoKit.podspec in Resources */,
 				CCD555F4230D1C9700F39D97 /* Assets.xcassets in Resources */,
-				CCBE9FA723137D5000047743 /* dui_press@3x.png in Resources */,
 				CCD555F2230D1C9500F39D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
