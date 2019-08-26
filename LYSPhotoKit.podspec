@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "LYSPhotoKit"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "简单封装一个图片选择器,支持单选和多选"
 s.description  = <<-DESC
 简单封装一个图片选择器,支持单选和多选.简单封装一个图片选择器,支持单选和多选
