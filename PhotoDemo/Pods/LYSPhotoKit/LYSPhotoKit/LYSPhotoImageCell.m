@@ -9,6 +9,7 @@
 #import "LYSPhotoImageCell.h"
 #import "LYSPhotoManager.h"
 #import "LYSPhotoImageModel.h"
+#import "LYSPhotoResource.h"
 @interface LYSPhotoImageCell ()
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) UIView *corverView;
@@ -35,7 +36,8 @@
         _selectBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
         UIImage *defaultImage = [UIImage imageNamed:@""];
         [_selectBtn setImage:defaultImage forState:(UIControlStateNormal)];
-        UIImage *selectImage = [UIImage imageNamed:@"dui_press.png"];
+        NSData *decodeData = [[NSData alloc]initWithBase64EncodedString:LYSPHOTODUIHAO options:(NSDataBase64DecodingIgnoreUnknownCharacters)];
+        UIImage *selectImage = [UIImage imageWithData:decodeData];
         [_selectBtn setImage:selectImage forState:(UIControlStateSelected)];
         _selectBtn.tintColor = [UIColor clearColor];
         _selectBtn.frame = CGRectMake(self.frame.size.width-20, self.frame.size.height-20, 20, 20);

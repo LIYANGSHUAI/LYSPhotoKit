@@ -20,6 +20,7 @@
 #import "LYSPhotoImageController.h"
 #import "LYSPhotoImageModel.h"
 #import "LYSPhotoManager.h"
+#import "LYSPhotoResource.h"
 #import "LYSPhotoShowImageController.h"
 
 FOUNDATION_EXPORT double LYSPhotoKitVersionNumber;

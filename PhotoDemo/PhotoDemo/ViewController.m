@@ -19,15 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSString * bundleNameWithExtension = @"LYSPhotoResource.bundle";
-    NSString * bundlePath = [[NSBundle bundleForClass:[ViewController class]].resourcePath
-                             stringByAppendingPathComponent:bundleNameWithExtension];
-    NSBundle * bundle = [NSBundle bundleWithPath:bundlePath];
-    NSLog(@"%@",bundle);
-    UIImage * image = [UIImage imageNamed:@"Resources/fanhui" inBundle:bundle compatibleWithTraitCollection:nil];
-    
-    NSLog(@"%@",image);
-    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event

@@ -3,49 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0697BB7CD5E0704D534265071AAC66DA /* LYSPhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D9148AF8D2D43CB16CABFBB18422 /* LYSPhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A05A149E1F6DCCA658A5CB71F551664 /* LYSPhotoFileModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 208A68DEB8FB8C315F20A68F8E9C0CB6 /* LYSPhotoFileModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B2E81EE7033349D7807E2EDAABA8D4F /* LYSPhotoImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 980B5B8264A26A936F2581FB3E20466C /* LYSPhotoImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1434E810BE198A479CAFD6567A783FEC /* LYSPhotoShowImageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2056674F24B55E7A929D7335DE4F57 /* LYSPhotoShowImageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1591C85F1E00EBDCA3D4C2B11074FDE3 /* LYSPhotoImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57525FB3AC8FC87465C50A30CAFFE1F1 /* LYSPhotoImageModel.m */; };
+		0D644F7B89781A35893713654CBCF106 /* LYSPhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E7F1EBC2D31AF82643600ECE89CEEC /* LYSPhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20FEC6B79C4CA5F20A667E9C5097B6BB /* Pods-PhotoDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7463B14F7B5ABC7C5232CCDE3A858D /* Pods-PhotoDemoTests-dummy.m */; };
+		27097B66B1190838CBE5EE21AFE90930 /* LYSPhotoControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB4C277D275FF9C3684FF2D02E6BF9B /* LYSPhotoControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A8F8FF00ADCDCD187A6DEC846768CE0 /* Pods-PhotoDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5D057DD4761663AAEEDD7959BE4E2 /* Pods-PhotoDemoUITests-dummy.m */; };
-		2BC2274AB37BB7F41F29ECC11E39351C /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BDB92398924366B97C0E777420F98F1 /* fanhui.png */; };
-		2E1E250884BA3C20FFE801061AAA62D4 /* LYSPhotoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0881343491749699682A702C383909 /* LYSPhotoKit-dummy.m */; };
-		370657F43806794A10D54A3263E2A8D4 /* dui_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 702688D214141C308B1892DFA4E449EC /* dui_press@2x.png */; };
-		3A01698EB49F14738E95EC8C48C6EA38 /* LYSPhotoImageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A00DC6975180900AF2DB6AD2B9C238 /* LYSPhotoImageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ADF60D93EA980EDB957F787FD976ADE /* dui_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E0B95E91B9F3F2ED3706899D7ACFE /* dui_press@3x.png */; };
-		400DD171C1601B3DF572EF0D762BDCA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4542EBA885F5C29C549E8E796C398251 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F732C6E185DAD61D770F0375608321C /* right.png */; };
-		4D5841CA91CF7EAF80B8219AE2B06274 /* LYSPhotoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B78AC4CC40365848B0C59F6FA4636B /* LYSPhotoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59428B1ED9B8CC82AC162D0AFF3C0068 /* LYSPhotoFolderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F493DA3BB7F73C8A02B7811B7711A3F /* LYSPhotoFolderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B5B984E810A642238AAA05CC0D30A79 /* LYSPhotoFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CB67227308F3A08635773A3888F76 /* LYSPhotoFileModel.m */; };
+		3A1667818DAF5FA732765C3EB7358530 /* LYSPhotoImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEB6A528923A68A9745B6682648BC62 /* LYSPhotoImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F6D6E12508A0A80DF145052C4E998E /* LYSPhotoShowImageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DC0ECB337BFF5254D7A0D8F79EB825 /* LYSPhotoShowImageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C342C1D5C8FCFFBC0EBA4BA7F3A4AC /* LYSPhotoFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC495E500FC80073FC2A4E9D4225CB86 /* LYSPhotoFileModel.m */; };
+		5CA3FE44D0F530EA6B5F1B3328693667 /* LYSPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB735AE41383E682A79EB69F6E8E7DD8 /* LYSPhotoManager.m */; };
 		6564C7E28F73A08920FEE3B5B73ACFCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6BD2C585443F22E6A241BC68C443C84B /* LYSPhotoFolderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192C1035F51E2B732BA3CB82B7B8A32 /* LYSPhotoFolderModel.m */; };
-		715D9C295B8FC6F9113F774A9B82974F /* LYSPhotoImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F41FC0A5596EBBD0413D9397E3D65E /* LYSPhotoImageController.m */; };
 		77C85F6A8D707B6B1151CBB4704299C2 /* Pods-PhotoDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3E25E686A77BC61102283B6AC034C6 /* Pods-PhotoDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BAB68AAC53C1E10BD9974C1D7114AB8 /* LYSPhotoControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 604BF654F528FFFE197F5238AD656EED /* LYSPhotoControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F13255E53C03CD12BFD3314BE9010A9 /* LYSPhotoFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25EC6AEC3F23A59B86175158E2A2010 /* LYSPhotoFolderCell.m */; };
 		80F34E82952D8F05C817EB29B19814B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9A2EC23A146917A65F92194841A034ED /* LYSPhotoFolderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D815A461001D8D07FC3083DB13FE3C /* LYSPhotoFolderController.m */; };
-		A88AC8D5F272CAEDB06DCBE2F29B6595 /* LYSPhotoController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70313A6BD51BC4B05115A768D2332F87 /* LYSPhotoController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8493F3B5260784D730AAEEAAC4B8E986 /* LYSPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670F00CCA8FA9927B204090D61350E9C /* LYSPhotoController.m */; };
+		8583B4B89B1AAD253D03C8F4B7B84C81 /* LYSPhotoImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EAE91AE3531ED24DF1922D19749DC4 /* LYSPhotoImageModel.m */; };
+		8D5543355C06CD784FBF68310CE602DD /* LYSPhotoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF40BE70FA72388F1A6C781211A40B9 /* LYSPhotoImageCell.m */; };
+		93E8AFE3275EB4BEF4E9291545206BAF /* LYSPhotoShowImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329806EC3F58871A40F99312759BDEFB /* LYSPhotoShowImageController.m */; };
+		93EE850D6B203B7D55AD28DDF74CFB13 /* LYSPhotoImageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6933AA7DAB5D63C119FF72044D2653 /* LYSPhotoImageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1311E1BD05EF055FBCF9D89486BD624 /* LYSPhotoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D5A6941680A52D8CBCD677273F86D0 /* LYSPhotoKit-dummy.m */; };
+		A96A5D64FFA8E6BE81A698970CC75B84 /* LYSPhotoFolderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E99E075760E645E6E9AAF610987216CF /* LYSPhotoFolderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1AF63C93A0A14E4AF0B4C88790C7648 /* Pods-PhotoDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AEB7A3A18D4BBFE93D80DE2A0D8BF9 /* Pods-PhotoDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7E872570817095CAA604E352B40E0F0 /* LYSPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EA081A0A206BE972E230B9B8CA48FE /* LYSPhotoManager.m */; };
-		C4CFDAF0CD18545E8F5D503E26DE9F1F /* LYSPhotoFolderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A1903F22F39D43C4496DC6529BA4F956 /* LYSPhotoFolderModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C73AB819ABD822916F0EF4B596652792 /* LYSPhotoFolderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 515366E3B6550480A19D4570FC9159BC /* LYSPhotoFolderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8F6AD39CA399C4AEA7A7CB5D8BCDCBA /* LYSPhotoShowImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C518E84CA8633D7B24A39D8324FBF6DD /* LYSPhotoShowImageController.m */; };
+		B21B9913E5AF37905848D83F82E3CC30 /* LYSPhotoFolderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A18ABD4DBC4E378BBB840F524E6453E1 /* LYSPhotoFolderModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB86C1F9229C4B1A4E78C3B09678F8F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CFE12259E5D38E0C7EBC1A49A63C1824 /* LYSPhotoResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0D33C1001E328C5979DF9F7636AC4D8 /* LYSPhotoResource.bundle */; };
-		D46AD2FF0125111DD1BBC66469981A30 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FC3EF751BB20B3D5C5ED2F5B8A355F /* right@2x.png */; };
-		D4E58CC95809AB30A62A64CA3A8CA2C5 /* LYSPhotoImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D189C04D4B31CB25A5152583D0E640 /* LYSPhotoImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDDA608C0C340FEE962FC8D6683B65F /* LYSPhotoFileModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E06B3A25631D83B66817E5D8F2B6A4E /* LYSPhotoFileModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2A46A12B616F0FE3963293083F98A5 /* LYSPhotoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2310D2CB985AB80555A3B670174AB1D0 /* LYSPhotoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFBCF2D073CF28F672098A2475DC4BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D532C4F185D8EDF91E285578A2C83689 /* LYSPhotoImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED543FFD90CC425E2F27984835B554 /* LYSPhotoImageController.m */; };
 		D8E3B6872AF00D373FA4CDF52D6CB039 /* Pods-PhotoDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 456CEB26836C1F0FF48C7A89F579882F /* Pods-PhotoDemo-dummy.m */; };
-		DE801978F19E8A4F1F72F096A616245A /* LYSPhotoFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C607861732DBAC8721F413353B3754 /* LYSPhotoFolderCell.m */; };
-		DEADD14D0C8E5E2BDE8B7D2B9D011961 /* LYSPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAAD5A70EC29F607B0A8E3C0F3A9A55 /* LYSPhotoController.m */; };
-		E061140742AEC46A3F49D46ECD8D605E /* fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54DB9BB3055DE20AED1D03439D2F0B2 /* fanhui@2x.png */; };
-		FA571CFF57E89291832E4A0119D5E31B /* LYSPhotoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 806704ABA7AE211DE12F33C30BAABEDA /* LYSPhotoImageCell.m */; };
+		DA2857911179EF29AF304EC22B385539 /* LYSPhotoController.h in Headers */ = {isa = PBXBuildFile; fileRef = D62DBB72BC90D0A280A3B970F7493588 /* LYSPhotoController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DB6D913BCDA97268EB8DAE3BDD57CD /* LYSPhotoImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F62E43048DB2E4D551D24929C612A02 /* LYSPhotoImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4474C7BA64715DFCF02E42BC03AF361 /* LYSPhotoResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC451F79E8D2CD778D482701B137D70 /* LYSPhotoResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F730EA67ED589FCD6C9D3104ECDE4B26 /* LYSPhotoFolderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E5DAEEDEA81F45ADC7B0CF6FAB0E33 /* LYSPhotoFolderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8282108C4F44AFAD6F064175254079A /* LYSPhotoFolderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C209A71F077B9B156B2D3F6B6B0A8CC /* LYSPhotoFolderController.m */; };
+		F9EB35BFB6E62A482E6A5DAB96BB13F3 /* LYSPhotoFolderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D11590A6A61701BAB54954B30FA54 /* LYSPhotoFolderModel.m */; };
 		FDBCCDD1797E66C6F5CF5FA90FA96FD7 /* Pods-PhotoDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEAFA016B5C24838410D2D10E76CDB /* Pods-PhotoDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -71,85 +65,79 @@
 			remoteGlobalIDString = 46F6BA10ADE3876464990F1544A3BFD7;
 			remoteInfo = LYSPhotoKit;
 		};
-		85921EE707492A0A031286895EBD3ACB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E291F9F4F7884E745250E69DD5EA4B97;
-			remoteInfo = "LYSPhotoKit-LYSPhotoResource";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01AEB7A3A18D4BBFE93D80DE2A0D8BF9 /* Pods-PhotoDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoDemoTests-umbrella.h"; sourceTree = "<group>"; };
 		05646CE098B20786F376869027672125 /* Pods-PhotoDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05EAE91AE3531ED24DF1922D19749DC4 /* LYSPhotoImageModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoImageModel.m; path = LYSPhotoKit/LYSPhotoImageModel.m; sourceTree = "<group>"; };
 		079BCF17EF717B227FB36F21D4E6CD21 /* Pods-PhotoDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoDemo.modulemap"; sourceTree = "<group>"; };
 		0AB42410D1D26169ABF8C2A5C0CB93F7 /* Pods-PhotoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		111D11590A6A61701BAB54954B30FA54 /* LYSPhotoFolderModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFolderModel.m; path = LYSPhotoKit/LYSPhotoFolderModel.m; sourceTree = "<group>"; };
 		1D4AC143BFCBE7CED969EC6E3A24ED0F /* Pods_PhotoDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoDemoTests.framework; path = "Pods-PhotoDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F732C6E185DAD61D770F0375608321C /* right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = right.png; path = LYSPhotoKit/Resources/right.png; sourceTree = "<group>"; };
-		208A68DEB8FB8C315F20A68F8E9C0CB6 /* LYSPhotoFileModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFileModel.h; path = LYSPhotoKit/LYSPhotoFileModel.h; sourceTree = "<group>"; };
-		23D815A461001D8D07FC3083DB13FE3C /* LYSPhotoFolderController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFolderController.m; path = LYSPhotoKit/LYSPhotoFolderController.m; sourceTree = "<group>"; };
+		2310D2CB985AB80555A3B670174AB1D0 /* LYSPhotoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYSPhotoKit-umbrella.h"; sourceTree = "<group>"; };
+		28E5DAEEDEA81F45ADC7B0CF6FAB0E33 /* LYSPhotoFolderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFolderController.h; path = LYSPhotoKit/LYSPhotoFolderController.h; sourceTree = "<group>"; };
 		2932587AD08A196D6C4963ED11E24E14 /* Pods-PhotoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoDemo.release.xcconfig"; sourceTree = "<group>"; };
-		2E2056674F24B55E7A929D7335DE4F57 /* LYSPhotoShowImageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoShowImageController.h; path = LYSPhotoKit/LYSPhotoShowImageController.h; sourceTree = "<group>"; };
+		2B6933AA7DAB5D63C119FF72044D2653 /* LYSPhotoImageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoImageController.h; path = LYSPhotoKit/LYSPhotoImageController.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35B20E5CD6CDD9DA0A214AB5067B2637 /* LYSPhotoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYSPhotoKit-Info.plist"; sourceTree = "<group>"; };
-		35E6D9148AF8D2D43CB16CABFBB18422 /* LYSPhotoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoManager.h; path = LYSPhotoKit/LYSPhotoManager.h; sourceTree = "<group>"; };
+		329806EC3F58871A40F99312759BDEFB /* LYSPhotoShowImageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoShowImageController.m; path = LYSPhotoKit/LYSPhotoShowImageController.m; sourceTree = "<group>"; };
+		363ECEA0877A7FD2905C3295E1BF4ABD /* LYSPhotoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYSPhotoKit-prefix.pch"; sourceTree = "<group>"; };
 		37244BDA22AD4E642430190052C08521 /* Pods-PhotoDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B53F806DECE664CC5520892F7F01005 /* Pods-PhotoDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoDemo-Info.plist"; sourceTree = "<group>"; };
 		3D7463B14F7B5ABC7C5232CCDE3A858D /* Pods-PhotoDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoDemoTests-dummy.m"; sourceTree = "<group>"; };
 		3D8C401A84FC095BD7474D015388B25F /* Pods-PhotoDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EED543FFD90CC425E2F27984835B554 /* LYSPhotoImageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoImageController.m; path = LYSPhotoKit/LYSPhotoImageController.m; sourceTree = "<group>"; };
+		3F62E43048DB2E4D551D24929C612A02 /* LYSPhotoImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoImageCell.h; path = LYSPhotoKit/LYSPhotoImageCell.h; sourceTree = "<group>"; };
 		402EDE1FACE21147D17756F7F9603DF2 /* Pods-PhotoDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		456CEB26836C1F0FF48C7A89F579882F /* Pods-PhotoDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoDemo-dummy.m"; sourceTree = "<group>"; };
 		4856980AC9F90FAF0A1BBFEF4F1E66CC /* Pods-PhotoDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4BDB92398924366B97C0E777420F98F1 /* fanhui.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fanhui.png; path = LYSPhotoKit/Resources/fanhui.png; sourceTree = "<group>"; };
-		4EAAD5A70EC29F607B0A8E3C0F3A9A55 /* LYSPhotoController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoController.m; path = LYSPhotoKit/LYSPhotoController.m; sourceTree = "<group>"; };
-		515366E3B6550480A19D4570FC9159BC /* LYSPhotoFolderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFolderCell.h; path = LYSPhotoKit/LYSPhotoFolderCell.h; sourceTree = "<group>"; };
-		57525FB3AC8FC87465C50A30CAFFE1F1 /* LYSPhotoImageModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoImageModel.m; path = LYSPhotoKit/LYSPhotoImageModel.m; sourceTree = "<group>"; };
+		49D5A6941680A52D8CBCD677273F86D0 /* LYSPhotoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYSPhotoKit-dummy.m"; sourceTree = "<group>"; };
+		52EE60FE781AF79196087B38D1CBB4CC /* LYSPhotoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYSPhotoKit-Info.plist"; sourceTree = "<group>"; };
+		58DC0ECB337BFF5254D7A0D8F79EB825 /* LYSPhotoShowImageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoShowImageController.h; path = LYSPhotoKit/LYSPhotoShowImageController.h; sourceTree = "<group>"; };
 		5AA6D90A3162DF1CA906954700ABF9AB /* Pods-PhotoDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F493DA3BB7F73C8A02B7811B7711A3F /* LYSPhotoFolderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFolderController.h; path = LYSPhotoKit/LYSPhotoFolderController.h; sourceTree = "<group>"; };
-		604BF654F528FFFE197F5238AD656EED /* LYSPhotoControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoControllerDelegate.h; path = LYSPhotoKit/LYSPhotoControllerDelegate.h; sourceTree = "<group>"; };
+		5C209A71F077B9B156B2D3F6B6B0A8CC /* LYSPhotoFolderController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFolderController.m; path = LYSPhotoKit/LYSPhotoFolderController.m; sourceTree = "<group>"; };
+		5E06B3A25631D83B66817E5D8F2B6A4E /* LYSPhotoFileModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFileModel.h; path = LYSPhotoKit/LYSPhotoFileModel.h; sourceTree = "<group>"; };
 		641FF911B152D21EFAAFA8F8434C6EB4 /* Pods-PhotoDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		64638E5EBFEDE076334CF7A975C27AC9 /* Pods-PhotoDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoDemoTests.modulemap"; sourceTree = "<group>"; };
-		694CB67227308F3A08635773A3888F76 /* LYSPhotoFileModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFileModel.m; path = LYSPhotoKit/LYSPhotoFileModel.m; sourceTree = "<group>"; };
+		670F00CCA8FA9927B204090D61350E9C /* LYSPhotoController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoController.m; path = LYSPhotoKit/LYSPhotoController.m; sourceTree = "<group>"; };
+		69E7F1EBC2D31AF82643600ECE89CEEC /* LYSPhotoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoManager.h; path = LYSPhotoKit/LYSPhotoManager.h; sourceTree = "<group>"; };
 		6F3E25E686A77BC61102283B6AC034C6 /* Pods-PhotoDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoDemo-umbrella.h"; sourceTree = "<group>"; };
-		702688D214141C308B1892DFA4E449EC /* dui_press@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dui_press@2x.png"; path = "LYSPhotoKit/Resources/dui_press@2x.png"; sourceTree = "<group>"; };
-		70313A6BD51BC4B05115A768D2332F87 /* LYSPhotoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoController.h; path = LYSPhotoKit/LYSPhotoController.h; sourceTree = "<group>"; };
-		70D189C04D4B31CB25A5152583D0E640 /* LYSPhotoImageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoImageModel.h; path = LYSPhotoKit/LYSPhotoImageModel.h; sourceTree = "<group>"; };
-		7192C1035F51E2B732BA3CB82B7B8A32 /* LYSPhotoFolderModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFolderModel.m; path = LYSPhotoKit/LYSPhotoFolderModel.m; sourceTree = "<group>"; };
-		7D4E0B95E91B9F3F2ED3706899D7ACFE /* dui_press@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dui_press@3x.png"; path = "LYSPhotoKit/Resources/dui_press@3x.png"; sourceTree = "<group>"; };
-		806704ABA7AE211DE12F33C30BAABEDA /* LYSPhotoImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoImageCell.m; path = LYSPhotoKit/LYSPhotoImageCell.m; sourceTree = "<group>"; };
-		83B78AC4CC40365848B0C59F6FA4636B /* LYSPhotoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYSPhotoKit-umbrella.h"; sourceTree = "<group>"; };
-		86FC3EF751BB20B3D5C5ED2F5B8A355F /* right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "right@2x.png"; path = "LYSPhotoKit/Resources/right@2x.png"; sourceTree = "<group>"; };
-		88C607861732DBAC8721F413353B3754 /* LYSPhotoFolderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFolderCell.m; path = LYSPhotoKit/LYSPhotoFolderCell.m; sourceTree = "<group>"; };
+		7FC451F79E8D2CD778D482701B137D70 /* LYSPhotoResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoResource.h; path = LYSPhotoKit/LYSPhotoResource.h; sourceTree = "<group>"; };
 		893F00303D175D8F94C18832BA4C7573 /* Pods-PhotoDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoDemo-frameworks.sh"; sourceTree = "<group>"; };
 		8C8959FD6C26483D1E281C6422C42C20 /* Pods_PhotoDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoDemoUITests.framework; path = "Pods-PhotoDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB4C277D275FF9C3684FF2D02E6BF9B /* LYSPhotoControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoControllerDelegate.h; path = LYSPhotoKit/LYSPhotoControllerDelegate.h; sourceTree = "<group>"; };
+		8FF40BE70FA72388F1A6C781211A40B9 /* LYSPhotoImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoImageCell.m; path = LYSPhotoKit/LYSPhotoImageCell.m; sourceTree = "<group>"; };
 		93A5FE3F282A007926C680E2F606F091 /* Pods-PhotoDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		95EA081A0A206BE972E230B9B8CA48FE /* LYSPhotoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoManager.m; path = LYSPhotoKit/LYSPhotoManager.m; sourceTree = "<group>"; };
-		980B5B8264A26A936F2581FB3E20466C /* LYSPhotoImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoImageCell.h; path = LYSPhotoKit/LYSPhotoImageCell.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1903F22F39D43C4496DC6529BA4F956 /* LYSPhotoFolderModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFolderModel.h; path = LYSPhotoKit/LYSPhotoFolderModel.h; sourceTree = "<group>"; };
+		A18ABD4DBC4E378BBB840F524E6453E1 /* LYSPhotoFolderModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFolderModel.h; path = LYSPhotoKit/LYSPhotoFolderModel.h; sourceTree = "<group>"; };
+		A20820159EE60A17894EB2093D4ECF5D /* LYSPhotoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYSPhotoKit.modulemap; sourceTree = "<group>"; };
 		A78C54D8FFE3CD75DA8690E4F8891CAE /* Pods_PhotoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoDemo.framework; path = "Pods-PhotoDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB8CA2E1DCB3E7B02B7043338D4670A /* LYSPhotoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYSPhotoKit.framework; path = LYSPhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEB6A528923A68A9745B6682648BC62 /* LYSPhotoImageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoImageModel.h; path = LYSPhotoKit/LYSPhotoImageModel.h; sourceTree = "<group>"; };
 		B002D35C0E641671BA97894D98DBAEBA /* Pods-PhotoDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B0857AF240F27613C6BE95509E279963 /* Pods-PhotoDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoDemoUITests-Info.plist"; sourceTree = "<group>"; };
 		B871D10FD73CC87B2DDA88553F214791 /* Pods-PhotoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		C518E84CA8633D7B24A39D8324FBF6DD /* LYSPhotoShowImageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoShowImageController.m; path = LYSPhotoKit/LYSPhotoShowImageController.m; sourceTree = "<group>"; };
-		C54DB9BB3055DE20AED1D03439D2F0B2 /* fanhui@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fanhui@2x.png"; path = "LYSPhotoKit/Resources/fanhui@2x.png"; sourceTree = "<group>"; };
-		CA87BFE9530074771D016760138D2F02 /* LYSPhotoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYSPhotoKit.xcconfig; sourceTree = "<group>"; };
-		CF685556261507E8EE0D3C7C4F47FDAB /* LYSPhotoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYSPhotoKit.modulemap; sourceTree = "<group>"; };
+		BE32DA0CB5BD994762F9B95DF5DB16ED /* LYSPhotoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYSPhotoKit.xcconfig; sourceTree = "<group>"; };
 		D2C772B7448A0A6628D2AB2C3CA1A79E /* Pods-PhotoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E7F41FC0A5596EBBD0413D9397E3D65E /* LYSPhotoImageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoImageController.m; path = LYSPhotoKit/LYSPhotoImageController.m; sourceTree = "<group>"; };
+		D62DBB72BC90D0A280A3B970F7493588 /* LYSPhotoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoController.h; path = LYSPhotoKit/LYSPhotoController.h; sourceTree = "<group>"; };
+		DB735AE41383E682A79EB69F6E8E7DD8 /* LYSPhotoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoManager.m; path = LYSPhotoKit/LYSPhotoManager.m; sourceTree = "<group>"; };
+		E99E075760E645E6E9AAF610987216CF /* LYSPhotoFolderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoFolderCell.h; path = LYSPhotoKit/LYSPhotoFolderCell.h; sourceTree = "<group>"; };
 		EBA5D057DD4761663AAEEDD7959BE4E2 /* Pods-PhotoDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		EDCD8BA8EA100780B22A4B7550B74D39 /* ResourceBundle-LYSPhotoResource-LYSPhotoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LYSPhotoResource-LYSPhotoKit-Info.plist"; sourceTree = "<group>"; };
+		EC495E500FC80073FC2A4E9D4225CB86 /* LYSPhotoFileModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFileModel.m; path = LYSPhotoKit/LYSPhotoFileModel.m; sourceTree = "<group>"; };
 		EEBEAFA016B5C24838410D2D10E76CDB /* Pods-PhotoDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		F0453986A29F5726BF5F766220524680 /* LYSPhotoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYSPhotoKit-prefix.pch"; sourceTree = "<group>"; };
-		F0D33C1001E328C5979DF9F7636AC4D8 /* LYSPhotoResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LYSPhotoResource.bundle; path = "LYSPhotoKit-LYSPhotoResource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6A00DC6975180900AF2DB6AD2B9C238 /* LYSPhotoImageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSPhotoImageController.h; path = LYSPhotoKit/LYSPhotoImageController.h; sourceTree = "<group>"; };
+		F25EC6AEC3F23A59B86175158E2A2010 /* LYSPhotoFolderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSPhotoFolderCell.m; path = LYSPhotoKit/LYSPhotoFolderCell.m; sourceTree = "<group>"; };
 		F90254DFA075B7DCE89939FB7D2F60D8 /* Pods-PhotoDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoDemoUITests.modulemap"; sourceTree = "<group>"; };
-		FC0881343491749699682A702C383909 /* LYSPhotoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYSPhotoKit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		126FC8E82084D002EC90BD2DAB085F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBCF2D073CF28F672098A2475DC4BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17796D0ADDDEC067BBCDCE5ECF62E4C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,21 +162,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A9D8A3DB6A9E29C5EC6F58ADB066723 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				400DD171C1601B3DF572EF0D762BDCA3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D702C886CA0ACE6F8B29B680213017C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -208,60 +181,15 @@
 			path = "Target Support Files/Pods-PhotoDemoTests";
 			sourceTree = "<group>";
 		};
-		196D0A3EE48FF9B2CC0E5CC814E87626 /* Products */ = {
+		2977C689D6594E766B3D3416F23D2D23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				ABB8CA2E1DCB3E7B02B7043338D4670A /* LYSPhotoKit.framework */,
-				F0D33C1001E328C5979DF9F7636AC4D8 /* LYSPhotoResource.bundle */,
 				A78C54D8FFE3CD75DA8690E4F8891CAE /* Pods_PhotoDemo.framework */,
 				1D4AC143BFCBE7CED969EC6E3A24ED0F /* Pods_PhotoDemoTests.framework */,
 				8C8959FD6C26483D1E281C6422C42C20 /* Pods_PhotoDemoUITests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1D9627040C52E21B47148E1D3A3477CE /* LYSPhotoKit */ = {
-			isa = PBXGroup;
-			children = (
-				70313A6BD51BC4B05115A768D2332F87 /* LYSPhotoController.h */,
-				4EAAD5A70EC29F607B0A8E3C0F3A9A55 /* LYSPhotoController.m */,
-				604BF654F528FFFE197F5238AD656EED /* LYSPhotoControllerDelegate.h */,
-				208A68DEB8FB8C315F20A68F8E9C0CB6 /* LYSPhotoFileModel.h */,
-				694CB67227308F3A08635773A3888F76 /* LYSPhotoFileModel.m */,
-				515366E3B6550480A19D4570FC9159BC /* LYSPhotoFolderCell.h */,
-				88C607861732DBAC8721F413353B3754 /* LYSPhotoFolderCell.m */,
-				5F493DA3BB7F73C8A02B7811B7711A3F /* LYSPhotoFolderController.h */,
-				23D815A461001D8D07FC3083DB13FE3C /* LYSPhotoFolderController.m */,
-				A1903F22F39D43C4496DC6529BA4F956 /* LYSPhotoFolderModel.h */,
-				7192C1035F51E2B732BA3CB82B7B8A32 /* LYSPhotoFolderModel.m */,
-				980B5B8264A26A936F2581FB3E20466C /* LYSPhotoImageCell.h */,
-				806704ABA7AE211DE12F33C30BAABEDA /* LYSPhotoImageCell.m */,
-				F6A00DC6975180900AF2DB6AD2B9C238 /* LYSPhotoImageController.h */,
-				E7F41FC0A5596EBBD0413D9397E3D65E /* LYSPhotoImageController.m */,
-				70D189C04D4B31CB25A5152583D0E640 /* LYSPhotoImageModel.h */,
-				57525FB3AC8FC87465C50A30CAFFE1F1 /* LYSPhotoImageModel.m */,
-				35E6D9148AF8D2D43CB16CABFBB18422 /* LYSPhotoManager.h */,
-				95EA081A0A206BE972E230B9B8CA48FE /* LYSPhotoManager.m */,
-				2E2056674F24B55E7A929D7335DE4F57 /* LYSPhotoShowImageController.h */,
-				C518E84CA8633D7B24A39D8324FBF6DD /* LYSPhotoShowImageController.m */,
-				343BF5A1F1342B5FF162324AF9CC4A96 /* Resources */,
-				F1B2811B44EB62F453C760914C4293AE /* Support Files */,
-			);
-			name = LYSPhotoKit;
-			path = LYSPhotoKit;
-			sourceTree = "<group>";
-		};
-		343BF5A1F1342B5FF162324AF9CC4A96 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				702688D214141C308B1892DFA4E449EC /* dui_press@2x.png */,
-				7D4E0B95E91B9F3F2ED3706899D7ACFE /* dui_press@3x.png */,
-				4BDB92398924366B97C0E777420F98F1 /* fanhui.png */,
-				C54DB9BB3055DE20AED1D03439D2F0B2 /* fanhui@2x.png */,
-				1F732C6E185DAD61D770F0375608321C /* right.png */,
-				86FC3EF751BB20B3D5C5ED2F5B8A355F /* right@2x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		34D9D2095AA6F9CB0BC6EDA6C334E7F6 /* Pods-PhotoDemoUITests */ = {
@@ -280,10 +208,24 @@
 			path = "Target Support Files/Pods-PhotoDemoUITests";
 			sourceTree = "<group>";
 		};
+		7663502F3E7FF5E3F4AECAD179554832 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20820159EE60A17894EB2093D4ECF5D /* LYSPhotoKit.modulemap */,
+				BE32DA0CB5BD994762F9B95DF5DB16ED /* LYSPhotoKit.xcconfig */,
+				49D5A6941680A52D8CBCD677273F86D0 /* LYSPhotoKit-dummy.m */,
+				52EE60FE781AF79196087B38D1CBB4CC /* LYSPhotoKit-Info.plist */,
+				363ECEA0877A7FD2905C3295E1BF4ABD /* LYSPhotoKit-prefix.pch */,
+				2310D2CB985AB80555A3B670174AB1D0 /* LYSPhotoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LYSPhotoKit";
+			sourceTree = "<group>";
+		};
 		A3A1143CE1E51DD2D79216C66B5E1002 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D9627040C52E21B47148E1D3A3477CE /* LYSPhotoKit */,
+				E623CE012AD9C98512483D4F44E9B41B /* LYSPhotoKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -319,7 +261,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A3A1143CE1E51DD2D79216C66B5E1002 /* Pods */,
-				196D0A3EE48FF9B2CC0E5CC814E87626 /* Products */,
+				2977C689D6594E766B3D3416F23D2D23 /* Products */,
 				D44A869EE8A37CDA6E44A3A021593206 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -342,24 +284,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F1B2811B44EB62F453C760914C4293AE /* Support Files */ = {
+		E623CE012AD9C98512483D4F44E9B41B /* LYSPhotoKit */ = {
 			isa = PBXGroup;
 			children = (
-				CF685556261507E8EE0D3C7C4F47FDAB /* LYSPhotoKit.modulemap */,
-				CA87BFE9530074771D016760138D2F02 /* LYSPhotoKit.xcconfig */,
-				FC0881343491749699682A702C383909 /* LYSPhotoKit-dummy.m */,
-				35B20E5CD6CDD9DA0A214AB5067B2637 /* LYSPhotoKit-Info.plist */,
-				F0453986A29F5726BF5F766220524680 /* LYSPhotoKit-prefix.pch */,
-				83B78AC4CC40365848B0C59F6FA4636B /* LYSPhotoKit-umbrella.h */,
-				EDCD8BA8EA100780B22A4B7550B74D39 /* ResourceBundle-LYSPhotoResource-LYSPhotoKit-Info.plist */,
+				D62DBB72BC90D0A280A3B970F7493588 /* LYSPhotoController.h */,
+				670F00CCA8FA9927B204090D61350E9C /* LYSPhotoController.m */,
+				8EB4C277D275FF9C3684FF2D02E6BF9B /* LYSPhotoControllerDelegate.h */,
+				5E06B3A25631D83B66817E5D8F2B6A4E /* LYSPhotoFileModel.h */,
+				EC495E500FC80073FC2A4E9D4225CB86 /* LYSPhotoFileModel.m */,
+				E99E075760E645E6E9AAF610987216CF /* LYSPhotoFolderCell.h */,
+				F25EC6AEC3F23A59B86175158E2A2010 /* LYSPhotoFolderCell.m */,
+				28E5DAEEDEA81F45ADC7B0CF6FAB0E33 /* LYSPhotoFolderController.h */,
+				5C209A71F077B9B156B2D3F6B6B0A8CC /* LYSPhotoFolderController.m */,
+				A18ABD4DBC4E378BBB840F524E6453E1 /* LYSPhotoFolderModel.h */,
+				111D11590A6A61701BAB54954B30FA54 /* LYSPhotoFolderModel.m */,
+				3F62E43048DB2E4D551D24929C612A02 /* LYSPhotoImageCell.h */,
+				8FF40BE70FA72388F1A6C781211A40B9 /* LYSPhotoImageCell.m */,
+				2B6933AA7DAB5D63C119FF72044D2653 /* LYSPhotoImageController.h */,
+				3EED543FFD90CC425E2F27984835B554 /* LYSPhotoImageController.m */,
+				AEEB6A528923A68A9745B6682648BC62 /* LYSPhotoImageModel.h */,
+				05EAE91AE3531ED24DF1922D19749DC4 /* LYSPhotoImageModel.m */,
+				69E7F1EBC2D31AF82643600ECE89CEEC /* LYSPhotoManager.h */,
+				DB735AE41383E682A79EB69F6E8E7DD8 /* LYSPhotoManager.m */,
+				7FC451F79E8D2CD778D482701B137D70 /* LYSPhotoResource.h */,
+				58DC0ECB337BFF5254D7A0D8F79EB825 /* LYSPhotoShowImageController.h */,
+				329806EC3F58871A40F99312759BDEFB /* LYSPhotoShowImageController.m */,
+				7663502F3E7FF5E3F4AECAD179554832 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LYSPhotoKit";
+			name = LYSPhotoKit;
+			path = LYSPhotoKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		274923A3968ABF8B7A4725F9ADFC5695 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2857911179EF29AF304EC22B385539 /* LYSPhotoController.h in Headers */,
+				27097B66B1190838CBE5EE21AFE90930 /* LYSPhotoControllerDelegate.h in Headers */,
+				CBDDA608C0C340FEE962FC8D6683B65F /* LYSPhotoFileModel.h in Headers */,
+				A96A5D64FFA8E6BE81A698970CC75B84 /* LYSPhotoFolderCell.h in Headers */,
+				F730EA67ED589FCD6C9D3104ECDE4B26 /* LYSPhotoFolderController.h in Headers */,
+				B21B9913E5AF37905848D83F82E3CC30 /* LYSPhotoFolderModel.h in Headers */,
+				E0DB6D913BCDA97268EB8DAE3BDD57CD /* LYSPhotoImageCell.h in Headers */,
+				93EE850D6B203B7D55AD28DDF74CFB13 /* LYSPhotoImageController.h in Headers */,
+				3A1667818DAF5FA732765C3EB7358530 /* LYSPhotoImageModel.h in Headers */,
+				CF2A46A12B616F0FE3963293083F98A5 /* LYSPhotoKit-umbrella.h in Headers */,
+				0D644F7B89781A35893713654CBCF106 /* LYSPhotoManager.h in Headers */,
+				F4474C7BA64715DFCF02E42BC03AF361 /* LYSPhotoResource.h in Headers */,
+				44F6D6E12508A0A80DF145052C4E998E /* LYSPhotoShowImageController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DF9AD5A4B84AB33002951E99604CEE1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,25 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AF63C93A0A14E4AF0B4C88790C7648 /* Pods-PhotoDemoTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		701C3DE2F8A22B339CDF90687872413B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A88AC8D5F272CAEDB06DCBE2F29B6595 /* LYSPhotoController.h in Headers */,
-				7BAB68AAC53C1E10BD9974C1D7114AB8 /* LYSPhotoControllerDelegate.h in Headers */,
-				0A05A149E1F6DCCA658A5CB71F551664 /* LYSPhotoFileModel.h in Headers */,
-				C73AB819ABD822916F0EF4B596652792 /* LYSPhotoFolderCell.h in Headers */,
-				59428B1ED9B8CC82AC162D0AFF3C0068 /* LYSPhotoFolderController.h in Headers */,
-				C4CFDAF0CD18545E8F5D503E26DE9F1F /* LYSPhotoFolderModel.h in Headers */,
-				0B2E81EE7033349D7807E2EDAABA8D4F /* LYSPhotoImageCell.h in Headers */,
-				3A01698EB49F14738E95EC8C48C6EA38 /* LYSPhotoImageController.h in Headers */,
-				D4E58CC95809AB30A62A64CA3A8CA2C5 /* LYSPhotoImageModel.h in Headers */,
-				4D5841CA91CF7EAF80B8219AE2B06274 /* LYSPhotoKit-umbrella.h in Headers */,
-				0697BB7CD5E0704D534265071AAC66DA /* LYSPhotoManager.h in Headers */,
-				1434E810BE198A479CAFD6567A783FEC /* LYSPhotoShowImageController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,17 +386,16 @@
 		};
 		46F6BA10ADE3876464990F1544A3BFD7 /* LYSPhotoKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6061B57B6BC58108EBD0D4AE75CE1C5D /* Build configuration list for PBXNativeTarget "LYSPhotoKit" */;
+			buildConfigurationList = 189E07453DA9CB58BA2C8A338353D175 /* Build configuration list for PBXNativeTarget "LYSPhotoKit" */;
 			buildPhases = (
-				701C3DE2F8A22B339CDF90687872413B /* Headers */,
-				2B6C25A9BD8FDB2BCE2C3398F2720E4D /* Sources */,
-				6A9D8A3DB6A9E29C5EC6F58ADB066723 /* Frameworks */,
-				2A7A8D08ED3843E32EE60C749244BE68 /* Resources */,
+				274923A3968ABF8B7A4725F9ADFC5695 /* Headers */,
+				03D02A7396282DA4B1CF4D6FC137A2A6 /* Sources */,
+				126FC8E82084D002EC90BD2DAB085F45 /* Frameworks */,
+				2F495D4A0E02BAF7793716F462C53E01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				065616CCE754A316A1E81CA334A4B173 /* PBXTargetDependency */,
 			);
 			name = LYSPhotoKit;
 			productName = LYSPhotoKit;
@@ -482,23 +440,6 @@
 			productReference = 1D4AC143BFCBE7CED969EC6E3A24ED0F /* Pods_PhotoDemoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E291F9F4F7884E745250E69DD5EA4B97 /* LYSPhotoKit-LYSPhotoResource */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 716EBB2F63641CE8A26C97AF83E7692B /* Build configuration list for PBXNativeTarget "LYSPhotoKit-LYSPhotoResource" */;
-			buildPhases = (
-				53FAFF98F242D5959329218473348C6E /* Sources */,
-				D702C886CA0ACE6F8B29B680213017C1 /* Frameworks */,
-				37215D1409A2D73F787FD6D502F5DFA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LYSPhotoKit-LYSPhotoResource";
-			productName = "LYSPhotoKit-LYSPhotoResource";
-			productReference = F0D33C1001E328C5979DF9F7636AC4D8 /* LYSPhotoResource.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -509,19 +450,18 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 196D0A3EE48FF9B2CC0E5CC814E87626 /* Products */;
+			productRefGroup = 2977C689D6594E766B3D3416F23D2D23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				46F6BA10ADE3876464990F1544A3BFD7 /* LYSPhotoKit */,
-				E291F9F4F7884E745250E69DD5EA4B97 /* LYSPhotoKit-LYSPhotoResource */,
 				32DA207045B7191F9D9868A2B7066F78 /* Pods-PhotoDemo */,
 				7B112A2DD09C22179038C1DDDFF9E445 /* Pods-PhotoDemoTests */,
 				5018F8AE05E47A00FEA6A93F32978271 /* Pods-PhotoDemoUITests */,
@@ -537,24 +477,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A7A8D08ED3843E32EE60C749244BE68 /* Resources */ = {
+		2F495D4A0E02BAF7793716F462C53E01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE12259E5D38E0C7EBC1A49A63C1824 /* LYSPhotoResource.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37215D1409A2D73F787FD6D502F5DFA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				370657F43806794A10D54A3263E2A8D4 /* dui_press@2x.png in Resources */,
-				3ADF60D93EA980EDB957F787FD976ADE /* dui_press@3x.png in Resources */,
-				2BC2274AB37BB7F41F29ECC11E39351C /* fanhui.png in Resources */,
-				E061140742AEC46A3F49D46ECD8D605E /* fanhui@2x.png in Resources */,
-				4542EBA885F5C29C549E8E796C398251 /* right.png in Resources */,
-				D46AD2FF0125111DD1BBC66469981A30 /* right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,36 +501,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		03D02A7396282DA4B1CF4D6FC137A2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8493F3B5260784D730AAEEAAC4B8E986 /* LYSPhotoController.m in Sources */,
+				49C342C1D5C8FCFFBC0EBA4BA7F3A4AC /* LYSPhotoFileModel.m in Sources */,
+				7F13255E53C03CD12BFD3314BE9010A9 /* LYSPhotoFolderCell.m in Sources */,
+				F8282108C4F44AFAD6F064175254079A /* LYSPhotoFolderController.m in Sources */,
+				F9EB35BFB6E62A482E6A5DAB96BB13F3 /* LYSPhotoFolderModel.m in Sources */,
+				8D5543355C06CD784FBF68310CE602DD /* LYSPhotoImageCell.m in Sources */,
+				D532C4F185D8EDF91E285578A2C83689 /* LYSPhotoImageController.m in Sources */,
+				8583B4B89B1AAD253D03C8F4B7B84C81 /* LYSPhotoImageModel.m in Sources */,
+				A1311E1BD05EF055FBCF9D89486BD624 /* LYSPhotoKit-dummy.m in Sources */,
+				5CA3FE44D0F530EA6B5F1B3328693667 /* LYSPhotoManager.m in Sources */,
+				93E8AFE3275EB4BEF4E9291545206BAF /* LYSPhotoShowImageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		226348C4BD5819115AED8D687BBC20A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20FEC6B79C4CA5F20A667E9C5097B6BB /* Pods-PhotoDemoTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B6C25A9BD8FDB2BCE2C3398F2720E4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEADD14D0C8E5E2BDE8B7D2B9D011961 /* LYSPhotoController.m in Sources */,
-				5B5B984E810A642238AAA05CC0D30A79 /* LYSPhotoFileModel.m in Sources */,
-				DE801978F19E8A4F1F72F096A616245A /* LYSPhotoFolderCell.m in Sources */,
-				9A2EC23A146917A65F92194841A034ED /* LYSPhotoFolderController.m in Sources */,
-				6BD2C585443F22E6A241BC68C443C84B /* LYSPhotoFolderModel.m in Sources */,
-				FA571CFF57E89291832E4A0119D5E31B /* LYSPhotoImageCell.m in Sources */,
-				715D9C295B8FC6F9113F774A9B82974F /* LYSPhotoImageController.m in Sources */,
-				1591C85F1E00EBDCA3D4C2B11074FDE3 /* LYSPhotoImageModel.m in Sources */,
-				2E1E250884BA3C20FFE801061AAA62D4 /* LYSPhotoKit-dummy.m in Sources */,
-				B7E872570817095CAA604E352B40E0F0 /* LYSPhotoManager.m in Sources */,
-				C8F6AD39CA399C4AEA7A7CB5D8BCDCBA /* LYSPhotoShowImageController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53FAFF98F242D5959329218473348C6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,12 +546,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		065616CCE754A316A1E81CA334A4B173 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "LYSPhotoKit-LYSPhotoResource";
-			target = E291F9F4F7884E745250E69DD5EA4B97 /* LYSPhotoKit-LYSPhotoResource */;
-			targetProxy = 85921EE707492A0A031286895EBD3ACB /* PBXContainerItemProxy */;
-		};
 		6EB012E25663907118052C14E35AAB05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PhotoDemo";
@@ -654,41 +567,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		151709B1B26B1C50B4C249476F4B21A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA87BFE9530074771D016760138D2F02 /* LYSPhotoKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYSPhotoKit/LYSPhotoKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYSPhotoKit/LYSPhotoKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LYSPhotoKit/LYSPhotoKit.modulemap";
-				PRODUCT_MODULE_NAME = LYSPhotoKit;
-				PRODUCT_NAME = LYSPhotoKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1B5965DCFA510BF8FD64A8008B558E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2C772B7448A0A6628D2AB2C3CA1A79E /* Pods-PhotoDemo.debug.xcconfig */;
@@ -725,22 +603,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		264668B716752F8FBB848FAB6812EC32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA87BFE9530074771D016760138D2F02 /* LYSPhotoKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LYSPhotoKit";
-				INFOPLIST_FILE = "Target Support Files/LYSPhotoKit/ResourceBundle-LYSPhotoResource-LYSPhotoKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LYSPhotoResource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -876,9 +738,9 @@
 			};
 			name = Debug;
 		};
-		73A316508E18C9A8B8DF890A5747CEAE /* Debug */ = {
+		7BBDD3D80AB33DDF03002FCCB3B76BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA87BFE9530074771D016760138D2F02 /* LYSPhotoKit.xcconfig */;
+			baseConfigurationReference = BE32DA0CB5BD994762F9B95DF5DB16ED /* LYSPhotoKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -905,10 +767,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -971,22 +834,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		82C97BB1C51D5E0F021CF57810C7B806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA87BFE9530074771D016760138D2F02 /* LYSPhotoKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LYSPhotoKit";
-				INFOPLIST_FILE = "Target Support Files/LYSPhotoKit/ResourceBundle-LYSPhotoResource-LYSPhotoKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LYSPhotoResource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1104,9 +951,52 @@
 			};
 			name = Release;
 		};
+		FC5E2837A246199512B0C191A3536DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE32DA0CB5BD994762F9B95DF5DB16ED /* LYSPhotoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYSPhotoKit/LYSPhotoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYSPhotoKit/LYSPhotoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LYSPhotoKit/LYSPhotoKit.modulemap";
+				PRODUCT_MODULE_NAME = LYSPhotoKit;
+				PRODUCT_NAME = LYSPhotoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		189E07453DA9CB58BA2C8A338353D175 /* Build configuration list for PBXNativeTarget "LYSPhotoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5E2837A246199512B0C191A3536DAE /* Debug */,
+				7BBDD3D80AB33DDF03002FCCB3B76BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2406094C79E14754FEC8C1964F5ADECC /* Build configuration list for PBXNativeTarget "Pods-PhotoDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1134,29 +1024,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6061B57B6BC58108EBD0D4AE75CE1C5D /* Build configuration list for PBXNativeTarget "LYSPhotoKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73A316508E18C9A8B8DF890A5747CEAE /* Debug */,
-				151709B1B26B1C50B4C249476F4B21A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6F4084276B12347E7D97F020C73048E7 /* Build configuration list for PBXNativeTarget "Pods-PhotoDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F3BDCB3440471DB1A2AF34351203846 /* Debug */,
 				AB2BB8151BAC75E3B58C2F6AE745B6D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		716EBB2F63641CE8A26C97AF83E7692B /* Build configuration list for PBXNativeTarget "LYSPhotoKit-LYSPhotoResource" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82C97BB1C51D5E0F021CF57810C7B806 /* Debug */,
-				264668B716752F8FBB848FAB6812EC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

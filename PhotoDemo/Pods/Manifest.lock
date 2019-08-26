@@ -1,16 +1,16 @@
 PODS:
-  - LYSPhotoKit (0.0.3)
+  - LYSPhotoKit (0.0.4)
 
 DEPENDENCIES:
-  - LYSPhotoKit (~> 0.0.3)
+  - LYSPhotoKit (~> 0.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - LYSPhotoKit
 
 SPEC CHECKSUMS:
-  LYSPhotoKit: 60abdcb50e2b67a4bd2f1b0020d4189a54f9138e
+  LYSPhotoKit: 46ae31052affda0bca97f6deb5be784f70cf714a
 
-PODFILE CHECKSUM: bbe0b710c3fa5be55ed4cad582a159d7b44b3f54
+PODFILE CHECKSUM: bbf5b06f8e09c9c84a2114053dea0a14479b096d
 
 COCOAPODS: 1.7.5
