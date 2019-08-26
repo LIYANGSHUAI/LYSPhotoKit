@@ -1,0 +1,6 @@
+framework module LYSPhotoKit {
+  umbrella header "LYSPhotoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

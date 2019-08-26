@@ -14,4 +14,5 @@ s.author             = { "李阳帅" => "liyangshuai163@163.com" }
 s.source       = { :git => "https://github.com/LIYANGSHUAI/LYSPhotoKit.git", :tag => s.version }
 
 s.source_files  = "LYSPhotoKit", "LYSPhotoKit/*.{h,m}"
+s.resources = "LYSPhotoKit/LYSPhotoResource.bundle"
 end
