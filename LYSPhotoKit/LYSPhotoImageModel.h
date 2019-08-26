@@ -2,16 +2,16 @@
 //  LYSPhotoImageModel.h
 //  LYSPhotoKitDemo
 //
-//  Created by HENAN on 2019/8/22.
+//  Created by HENAN on 2019/8/23.
 //  Copyright © 2019 HENAN. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <Photos/Photos.h>
-NS_ASSUME_NONNULL_BEGIN
+#import "LYSPhotoFileModel.h"
 
-@interface LYSPhotoImageModel : NSObject
-@property (nonatomic, strong) PHAsset *imgAsset;
+NS_ASSUME_NONNULL_BEGIN
+@class PHAsset;
+@interface LYSPhotoImageModel : LYSPhotoFileModel
+@property (nonatomic, strong) PHAsset *asset;
 @property (nonatomic, assign) BOOL selected;
 @property (nonatomic, assign) BOOL showCorver;
 @end

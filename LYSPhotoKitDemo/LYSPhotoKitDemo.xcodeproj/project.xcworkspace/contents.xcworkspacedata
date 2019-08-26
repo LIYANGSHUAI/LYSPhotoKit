@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LYSPhotoKitDemo.xcodeproj">
+      location = "group:/Users/henandongxin/GithubStore/LYSPhotoKit/LYSPhotoKitDemo/LYSPhotoKitDemo/README.md">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

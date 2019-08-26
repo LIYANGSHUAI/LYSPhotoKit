@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCC07BAC230E1FF100EFD6FA /* LYSPhotoFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BAB230E1FF100EFD6FA /* LYSPhotoFolderCell.m */; };
-		CCC07BAF230E204B00EFD6FA /* LYSPhotoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BAE230E204B00EFD6FA /* LYSPhotoImageCell.m */; };
-		CCC07BB2230E2A6100EFD6FA /* LYSPhotoCollectController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BB1230E2A6100EFD6FA /* LYSPhotoCollectController.m */; };
+		CCBE9F5E231371F200047743 /* LYSPhotoKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9F5D231371F200047743 /* LYSPhotoKit.podspec */; };
 		CCC07BF0230E3A3100EFD6FA /* LYSPhotoResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BEF230E3A3100EFD6FA /* LYSPhotoResource.bundle */; };
 		CCC07BF3230E3B9100EFD6FA /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BF1230E3B9100EFD6FA /* fanhui.png */; };
 		CCC07BF4230E3B9100EFD6FA /* fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BF2230E3B9100EFD6FA /* fanhui@2x.png */; };
-		CCC07BF7230E694B00EFD6FA /* LYSPhotoImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BF6230E694B00EFD6FA /* LYSPhotoImageModel.m */; };
-		CCC07BFA230E6CEF00EFD6FA /* LYSPhotoFolderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC07BF9230E6CEF00EFD6FA /* LYSPhotoFolderModel.m */; };
 		CCC07BFD230E84DB00EFD6FA /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFB230E84DB00EFD6FA /* right.png */; };
 		CCC07BFE230E84DB00EFD6FA /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFC230E84DB00EFD6FA /* right@2x.png */; };
 		CCC07C01230E8CA700EFD6FA /* dui_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC07BFF230E8CA700EFD6FA /* dui_press@3x.png */; };
@@ -27,6 +23,16 @@
 		CCD555FA230D1C9700F39D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD555F9230D1C9700F39D97 /* main.m */; };
 		CCD55604230D1C9700F39D97 /* LYSPhotoKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD55603230D1C9700F39D97 /* LYSPhotoKitDemoTests.m */; };
 		CCD5560F230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5560E230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m */; };
+		CCDC8210230F7F9C004A415E /* LYSPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC820F230F7F9C004A415E /* LYSPhotoController.m */; };
+		CCDC8213230F8093004A415E /* LYSPhotoImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC8212230F8093004A415E /* LYSPhotoImageController.m */; };
+		CCDC8216230F80C0004A415E /* LYSPhotoFolderController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC8215230F80C0004A415E /* LYSPhotoFolderController.m */; };
+		CCDC821A230F8D00004A415E /* LYSPhotoFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC8219230F8D00004A415E /* LYSPhotoFileModel.m */; };
+		CCDC821D230F8D1D004A415E /* LYSPhotoImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC821C230F8D1D004A415E /* LYSPhotoImageModel.m */; };
+		CCDC8220230F8F0C004A415E /* LYSPhotoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC821F230F8F0C004A415E /* LYSPhotoImageCell.m */; };
+		CCDC8223230F8FBD004A415E /* LYSPhotoFolderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC8222230F8FBD004A415E /* LYSPhotoFolderModel.m */; };
+		CCDC8226230F8FD3004A415E /* LYSPhotoFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC8225230F8FD3004A415E /* LYSPhotoFolderCell.m */; };
+		CCDC8229230F9159004A415E /* LYSPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC8228230F9159004A415E /* LYSPhotoManager.m */; };
+		CCDC822C230FAFD5004A415E /* LYSPhotoShowImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC822B230FAFD5004A415E /* LYSPhotoShowImageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,21 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CCC07BAA230E1FF100EFD6FA /* LYSPhotoFolderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderCell.h; sourceTree = "<group>"; };
-		CCC07BAB230E1FF100EFD6FA /* LYSPhotoFolderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderCell.m; sourceTree = "<group>"; };
-		CCC07BAD230E204B00EFD6FA /* LYSPhotoImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageCell.h; sourceTree = "<group>"; };
-		CCC07BAE230E204B00EFD6FA /* LYSPhotoImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageCell.m; sourceTree = "<group>"; };
-		CCC07BB0230E2A6100EFD6FA /* LYSPhotoCollectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoCollectController.h; sourceTree = "<group>"; };
-		CCC07BB1230E2A6100EFD6FA /* LYSPhotoCollectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoCollectController.m; sourceTree = "<group>"; };
+		CCBE9F5D231371F200047743 /* LYSPhotoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSPhotoKit.podspec; path = ../../LYSPhotoKit.podspec; sourceTree = "<group>"; };
+		CCBE9F5F2313720700047743 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = /Users/henandongxin/GithubStore/LYSPhotoKit/LYSPhotoKitDemo/LYSPhotoKitDemo/README.md; sourceTree = "<absolute>"; };
 		CCC07BDF230E378500EFD6FA /* LYSPhotoResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSPhotoResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC07BE1230E378500EFD6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC07BEF230E3A3100EFD6FA /* LYSPhotoResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYSPhotoResource.bundle; sourceTree = "<group>"; };
 		CCC07BF1230E3B9100EFD6FA /* fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhui.png; sourceTree = "<group>"; };
 		CCC07BF2230E3B9100EFD6FA /* fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanhui@2x.png"; sourceTree = "<group>"; };
-		CCC07BF5230E694B00EFD6FA /* LYSPhotoImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageModel.h; sourceTree = "<group>"; };
-		CCC07BF6230E694B00EFD6FA /* LYSPhotoImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageModel.m; sourceTree = "<group>"; };
-		CCC07BF8230E6CEF00EFD6FA /* LYSPhotoFolderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderModel.h; sourceTree = "<group>"; };
-		CCC07BF9230E6CEF00EFD6FA /* LYSPhotoFolderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderModel.m; sourceTree = "<group>"; };
 		CCC07BFB230E84DB00EFD6FA /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		CCC07BFC230E84DB00EFD6FA /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
 		CCC07BFF230E8CA700EFD6FA /* dui_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dui_press@3x.png"; sourceTree = "<group>"; };
@@ -82,6 +80,27 @@
 		CCD5560A230D1C9700F39D97 /* LYSPhotoKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSPhotoKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD5560E230D1C9700F39D97 /* LYSPhotoKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoKitDemoUITests.m; sourceTree = "<group>"; };
 		CCD55610230D1C9700F39D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDC820E230F7F9C004A415E /* LYSPhotoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoController.h; sourceTree = "<group>"; };
+		CCDC820F230F7F9C004A415E /* LYSPhotoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoController.m; sourceTree = "<group>"; };
+		CCDC8212230F8093004A415E /* LYSPhotoImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageController.m; sourceTree = "<group>"; };
+		CCDC8214230F80C0004A415E /* LYSPhotoFolderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderController.h; sourceTree = "<group>"; };
+		CCDC8215230F80C0004A415E /* LYSPhotoFolderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderController.m; sourceTree = "<group>"; };
+		CCDC8217230F87CA004A415E /* LYSPhotoImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageController.h; sourceTree = "<group>"; };
+		CCDC8218230F8D00004A415E /* LYSPhotoFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFileModel.h; sourceTree = "<group>"; };
+		CCDC8219230F8D00004A415E /* LYSPhotoFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFileModel.m; sourceTree = "<group>"; };
+		CCDC821B230F8D1D004A415E /* LYSPhotoImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageModel.h; sourceTree = "<group>"; };
+		CCDC821C230F8D1D004A415E /* LYSPhotoImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageModel.m; sourceTree = "<group>"; };
+		CCDC821E230F8F0C004A415E /* LYSPhotoImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoImageCell.h; sourceTree = "<group>"; };
+		CCDC821F230F8F0C004A415E /* LYSPhotoImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoImageCell.m; sourceTree = "<group>"; };
+		CCDC8221230F8FBD004A415E /* LYSPhotoFolderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderModel.h; sourceTree = "<group>"; };
+		CCDC8222230F8FBD004A415E /* LYSPhotoFolderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderModel.m; sourceTree = "<group>"; };
+		CCDC8224230F8FD3004A415E /* LYSPhotoFolderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoFolderCell.h; sourceTree = "<group>"; };
+		CCDC8225230F8FD3004A415E /* LYSPhotoFolderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoFolderCell.m; sourceTree = "<group>"; };
+		CCDC8227230F9159004A415E /* LYSPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoManager.h; sourceTree = "<group>"; };
+		CCDC8228230F9159004A415E /* LYSPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoManager.m; sourceTree = "<group>"; };
+		CCDC822A230FAFD5004A415E /* LYSPhotoShowImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoShowImageController.h; sourceTree = "<group>"; };
+		CCDC822B230FAFD5004A415E /* LYSPhotoShowImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSPhotoShowImageController.m; sourceTree = "<group>"; };
+		CCDC822D230FD1A6004A415E /* LYSPhotoControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSPhotoControllerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +178,8 @@
 				CCD555EB230D1C9500F39D97 /* AppDelegate.m */,
 				CCD555ED230D1C9500F39D97 /* ViewController.h */,
 				CCD555EE230D1C9500F39D97 /* ViewController.m */,
+				CCBE9F5D231371F200047743 /* LYSPhotoKit.podspec */,
+				CCBE9F5F2313720700047743 /* README.md */,
 				CCD5561C230D1CE800F39D97 /* LYSPhotoKit */,
 				CCD555F0230D1C9500F39D97 /* Main.storyboard */,
 				CCD555F3230D1C9700F39D97 /* Assets.xcassets */,
@@ -191,16 +212,27 @@
 			isa = PBXGroup;
 			children = (
 				CCC07BEF230E3A3100EFD6FA /* LYSPhotoResource.bundle */,
-				CCC07BAA230E1FF100EFD6FA /* LYSPhotoFolderCell.h */,
-				CCC07BAB230E1FF100EFD6FA /* LYSPhotoFolderCell.m */,
-				CCC07BF8230E6CEF00EFD6FA /* LYSPhotoFolderModel.h */,
-				CCC07BF9230E6CEF00EFD6FA /* LYSPhotoFolderModel.m */,
-				CCC07BAD230E204B00EFD6FA /* LYSPhotoImageCell.h */,
-				CCC07BAE230E204B00EFD6FA /* LYSPhotoImageCell.m */,
-				CCC07BF5230E694B00EFD6FA /* LYSPhotoImageModel.h */,
-				CCC07BF6230E694B00EFD6FA /* LYSPhotoImageModel.m */,
-				CCC07BB0230E2A6100EFD6FA /* LYSPhotoCollectController.h */,
-				CCC07BB1230E2A6100EFD6FA /* LYSPhotoCollectController.m */,
+				CCDC8227230F9159004A415E /* LYSPhotoManager.h */,
+				CCDC8228230F9159004A415E /* LYSPhotoManager.m */,
+				CCDC8218230F8D00004A415E /* LYSPhotoFileModel.h */,
+				CCDC8219230F8D00004A415E /* LYSPhotoFileModel.m */,
+				CCDC821B230F8D1D004A415E /* LYSPhotoImageModel.h */,
+				CCDC821C230F8D1D004A415E /* LYSPhotoImageModel.m */,
+				CCDC821E230F8F0C004A415E /* LYSPhotoImageCell.h */,
+				CCDC821F230F8F0C004A415E /* LYSPhotoImageCell.m */,
+				CCDC8221230F8FBD004A415E /* LYSPhotoFolderModel.h */,
+				CCDC8222230F8FBD004A415E /* LYSPhotoFolderModel.m */,
+				CCDC8224230F8FD3004A415E /* LYSPhotoFolderCell.h */,
+				CCDC8225230F8FD3004A415E /* LYSPhotoFolderCell.m */,
+				CCDC8217230F87CA004A415E /* LYSPhotoImageController.h */,
+				CCDC8212230F8093004A415E /* LYSPhotoImageController.m */,
+				CCDC822A230FAFD5004A415E /* LYSPhotoShowImageController.h */,
+				CCDC822B230FAFD5004A415E /* LYSPhotoShowImageController.m */,
+				CCDC8214230F80C0004A415E /* LYSPhotoFolderController.h */,
+				CCDC8215230F80C0004A415E /* LYSPhotoFolderController.m */,
+				CCDC822D230FD1A6004A415E /* LYSPhotoControllerDelegate.h */,
+				CCDC820E230F7F9C004A415E /* LYSPhotoController.h */,
+				CCDC820F230F7F9C004A415E /* LYSPhotoController.m */,
 			);
 			name = LYSPhotoKit;
 			path = ../../LYSPhotoKit;
@@ -344,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD555F7230D1C9700F39D97 /* LaunchScreen.storyboard in Resources */,
+				CCBE9F5E231371F200047743 /* LYSPhotoKit.podspec in Resources */,
 				CCC07BF0230E3A3100EFD6FA /* LYSPhotoResource.bundle in Resources */,
 				CCD555F4230D1C9700F39D97 /* Assets.xcassets in Resources */,
 				CCD555F2230D1C9500F39D97 /* Main.storyboard in Resources */,
@@ -378,14 +411,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC07BB2230E2A6100EFD6FA /* LYSPhotoCollectController.m in Sources */,
+				CCDC8220230F8F0C004A415E /* LYSPhotoImageCell.m in Sources */,
 				CCD555EF230D1C9500F39D97 /* ViewController.m in Sources */,
 				CCD555FA230D1C9700F39D97 /* main.m in Sources */,
+				CCDC821A230F8D00004A415E /* LYSPhotoFileModel.m in Sources */,
+				CCDC8210230F7F9C004A415E /* LYSPhotoController.m in Sources */,
+				CCDC8229230F9159004A415E /* LYSPhotoManager.m in Sources */,
+				CCDC8226230F8FD3004A415E /* LYSPhotoFolderCell.m in Sources */,
 				CCD555EC230D1C9500F39D97 /* AppDelegate.m in Sources */,
-				CCC07BFA230E6CEF00EFD6FA /* LYSPhotoFolderModel.m in Sources */,
-				CCC07BAF230E204B00EFD6FA /* LYSPhotoImageCell.m in Sources */,
-				CCC07BF7230E694B00EFD6FA /* LYSPhotoImageModel.m in Sources */,
-				CCC07BAC230E1FF100EFD6FA /* LYSPhotoFolderCell.m in Sources */,
+				CCDC821D230F8D1D004A415E /* LYSPhotoImageModel.m in Sources */,
+				CCDC8223230F8FBD004A415E /* LYSPhotoFolderModel.m in Sources */,
+				CCDC822C230FAFD5004A415E /* LYSPhotoShowImageController.m in Sources */,
+				CCDC8213230F8093004A415E /* LYSPhotoImageController.m in Sources */,
+				CCDC8216230F80C0004A415E /* LYSPhotoFolderController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
